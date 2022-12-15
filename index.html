@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <script src="https://kit.fontawesome.com/5f9b4e437d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h1 class="title">Vehicle Counter</h1>
+            <h2 id="count-el">0</h2>
+            <button id="btn" onclick="increment()"><i class="fa-solid fa-car car"></i> ADD</button>
+            <button id="btn" onclick="save()">SAVE</button>
+            <p id="save-item">Vehicle total numbers: </p>
+            <i id="reset-btn" onclick="reset()" class="fa-solid fa-circle-xmark reset"></i> 
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>

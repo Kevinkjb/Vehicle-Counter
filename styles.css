@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://www.vmcdn.ca/f/files/nob/swedish-highway-3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.box{
+    background-color: rgb(219, 220, 215);
+    padding: 3rem;
+    border-radius: 15px;
+    text-align: center;
+    color: #000;
+    box-shadow: 0 1px 1px 1px  #000;
+    width: 50%;
+}
+h1,h2{
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+h2{
+    font-size: 3rem;
+}
+button{
+    padding: 1rem 4rem;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    background-color: darkred;
+    color: #fff;
+    margin: .5rem 1rem;
+}
+button:hover{
+    opacity: .8;
+    cursor: pointer;
+}
+.car{
+    margin-right: 13px;
+}
+.reset{
+    margin-top: 1rem;
+    cursor: pointer;
+}
+#save-item{
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+@media screen and (max-width: 670px) {
+    .box{
+        width: 90%;
+    }
+}
+@media screen and (max-width: 380px) {
+    .box{
+        width: 100%;
+    }
+}
